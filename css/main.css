@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body,
+html {
+  font-size: 20px;
+  font-family: "Microsoft Yahei";
+}
+img {
+  vertical-align: middle;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.main {
+  text-align: center;
+  padding: 0.3rem 0.6rem;
+}
+.main h1 {
+  font-size: 1rem;
+  color: #585757;
+  font-weight: normal;
+}
+.main h3 {
+  font-size: 0.7rem;
+  color: #787878;
+  font-weight: 400;
+}
+.main .title {
+  padding: 1rem 0;
+}
+.main p {
+  color: #787878;
+  font-size: 0.65rem;
+  line-height: 1.2rem;
+}
+.main p + p {
+  margin-top: 0.5rem;
+}
+.main .content {
+  padding: 1rem 0;
+}
+.main ul {
+  overflow: hidden;
+}
+.main ul li {
+  float: left;
+}

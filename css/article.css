@@ -1,0 +1,18 @@
+.article {
+  overflow: hidden;
+}
+.article .title {
+  border-bottom: 1px dashed #787878;
+  padding-bottom: 0;
+}
+.article .title h1 {
+  font-weight: bold;
+  color: #787878;
+}
+.article .title p {
+  font-size: 0.6rem;
+  margin: 0.5rem 0 0.1rem;
+}
+.article .title p span {
+  margin-right: 0.8rem;
+}

@@ -1,0 +1,22 @@
+.carousel .owl-theme .owl-dots .owl-dot span {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.carousel .owl-theme .owl-dots .owl-dot.active span,
+.carousel .owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #307ae8;
+}
+.carousel .owl-carousel.owl-drag .owl-item {
+  width: 100%;
+}
+.carousel .owl-carousel {
+  height: 100%;
+}
+.carousel .owl-carousel .owl-stage-outer {
+  width: 100%;
+}
+.carousel .owl-theme .owl-nav.disabled + .owl-dots {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1.2rem;
+}

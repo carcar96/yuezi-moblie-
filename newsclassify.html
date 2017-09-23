@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>仕馨月子会所</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/proSystemSec.css">
+	<link rel="stylesheet" href="lib/owl.carousel.min.css" />
+	<link rel="stylesheet" href="lib/owl.theme.default.min.css" />
+</head>
+<body id="newsclassify">
+	<!-- nav -->
+	<nav id="nav"></nav>
+	<!-- banner -->
+	<section id="banner"></section>
+	<!-- newsclassify-->
+	<section class="main classify">
+		<div class="content">
+			<div class="list">
+				<div class="btn">
+					<span>备孕</span>
+					<span class="icon"></span>
+				</div>
+				<ul>
+					<li><a href="article.html?id=39">怎样生男孩？怎样生女孩？</a></li>
+					<li><a href="article.html?id=38">高龄妈妈追生二孩需要了解这些风险！</a></li>
+					<li><a href="article.html?id=33">孕期发生这9种情况，孕妇一定要去看医生！</a></li>
+					<li><a href="article.html?id=32">怀孕了，这些胎动要了解！</a></li>
+					<li><a href="article.html?id=31">周杰伦二胎来了，要二胎这些准备你做好了吗？</a></li>
+				</ul>
+			</div>
+			<div class="list">
+				<div class="btn">
+					<span>孕期</span>
+					<span class="icon"></span>
+				</div>
+				<ul>
+					<li><a href="article.html?id=45">要想生个健康娃，孕前检查很重要！</a></li>
+					<li><a href="article.html?id=44">孕期九大坑妈谣言 你信过吗？</a></li>
+					<li><a href="article.html?id=43">孕期坏情绪 明星贾静雯怎么做？</a></li>
+					<li><a href="article.html?id=42">孕期吃这个 宝宝智商高！</a></li>
+					<li><a href="article.html?id=41">孕期贫血该怎么补？</a></li>
+					<li><a href="article.html?id=40">怀孕了，这些关于叶酸知识需要了解！</a></li>
+				</ul>
+			</div>
+			<div class="list">
+				<div class="btn">
+					<span>分娩</span>
+					<span class="icon"></span>
+				</div>
+				<ul>
+					<li><a href="article.html?id=50">明星爱剖宫产 剖腹产后孕二胎要注意什么？</a></li>
+					<li><a href="article.html?id=49">过期妊娠的危害，准妈知多少？</a></li>
+					<li><a href="article.html?id=48">林心如产女，霍建华全程陪产的玄机你都懂么？？</a></li>
+					<li><a href="article.html?id=47">Angelababy真的顺产了，原来这些不是假预兆！！！</a></li>
+					<li><a href="article.html?id=46">顺利分娩！孕妇临产五大禁忌</a></li>
+				</ul>
+			</div>
+			<div class="list">
+				<div class="btn">
+					<span>0-1岁</span>
+					<span class="icon"></span>
+				</div>
+				<ul>
+					<li><a href="article.html?id=55">宝宝拉肚子不要着急，先了解这些知识！</a></li>
+					<li><a href="article.html?id=54">新生儿脐带如何护理？</a></li>
+					<li><a href="article.html?id=53">新生儿不吃母乳怎么办？</a></li>
+					<li><a href="article.html?id=52">新生儿皮肤怎么护理？</a></li>
+					<li><a href="article.html?id=51">月子里宝宝不要犯10种禁忌！</a></li>
+				</ul>
+			</div>
+			<div class="list">
+				<div class="btn">
+					<span>1-3岁</span>
+					<span class="icon"></span>
+				</div>
+				<ul></ul>
+			</div>
+			<div class="list">
+				<div class="btn">
+					<span>3-6岁</span>
+					<span class="icon"></span>
+				</div>
+				<ul></ul>
+			</div>
+		</div>
+	</section>
+	<!-- customer service -->
+	<section id="cusServer"></section>
+	<!-- footer -->
+	<footer></footer>
+</body>
+<script src="lib/jquery.min.js"></script>
+<script src="lib/owl.carousel.min.js"></script>
+<script src="js/base.js"></script>
+<script>
+	$('.classify .list').each(function(idx,ele){
+		$(ele).on('click',function(){
+			if($(this).hasClass('open')){
+				$(this).removeClass('open');
+			}else{
+				$(this).addClass('open').siblings().removeClass('open');
+			}
+			$(this).children('ul').slideToggle(300)
+					.parent().siblings().children('ul').slideUp(300);
+		})
+	})
+</script>
+</html>

@@ -1,0 +1,16 @@
+.professional {
+  padding-top: 1.5rem;
+  padding-bottom: 1.125rem;
+}
+.professional ul li {
+  width: calc(50% - 0.25rem);
+  margin-top: 0.2rem;
+}
+.professional ul li:nth-child(2n) {
+  margin-left: 0.5rem;
+}
+.professional ul li h3 {
+  margin: 0.5rem 0;
+  font-size: 0.7rem;
+  color: #3a3a3a;
+}

@@ -1,0 +1,91 @@
+.tabBox .tab {
+  padding: 1.5rem 0;
+}
+.tabBox .tab ul {
+  text-align: center;
+}
+.tabBox .tab ul li {
+  display: inline-block;
+  background: #74c5be;
+  border-radius: 0 0.7rem;
+  padding: 0.05rem 0.8rem;
+}
+.tabBox .tab ul li h3 {
+  font-size: 0.65rem;
+  text-align: center;
+  line-height: 1.25rem;
+  color: white;
+}
+.tabBox .tab ul li.active {
+  background: #ed85ad;
+}
+.tabBox .content > div {
+  display: none;
+}
+.tabBox .content > div:first-child {
+  display: block;
+}
+img {
+  width: 100%;
+}
+.news .content {
+  padding: 0 0.6rem 0.2rem;
+}
+.news .content ul {
+  overflow: hidden;
+}
+.news .content .c1 ul li {
+  width: calc(50% - 0.2rem);
+  float: left;
+  margin-bottom: 0.8rem;
+}
+.news .content .c1 ul li:nth-child(2n) {
+  margin-left: 0.4rem;
+}
+.news .content .c2 {
+  padding: 0 0.6rem 0.5rem;
+}
+.news .content .c2 ul li {
+  border-bottom: 1px dashed #8a8b8c;
+  overflow: hidden;
+  padding: 0.3rem 0;
+}
+.news .content .c2 ul li p {
+  color: #8a8b8c;
+  line-height: 1rem;
+}
+.news .content .c2 ul li p.left {
+  float: left;
+  width: 65%;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.news .content .c2 ul li p.right {
+  float: right;
+  width: 30%;
+  font-size: 0.6rem;
+}
+.news .content .c3 ul li {
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+}
+.news .content .c3 ul li .left {
+  width: 3rem;
+  height: 3rem;
+  float: left;
+}
+.news .content .c3 ul li .right {
+  width: 77%;
+  float: right;
+}
+.news .content .c3 ul li .title {
+  font-size: 0.75rem;
+  color: #666;
+}
+.news .content .c3 ul li .time {
+  font-size: 0.65rem;
+  color: #787878;
+  margin-top: 0.2rem;
+}

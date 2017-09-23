@@ -1,0 +1,134 @@
+.main .title {
+  padding-bottom: 0.2rem;
+}
+.main .title h1 span {
+  position: relative;
+}
+.main .title h1 span:before {
+  position: absolute;
+  content: '';
+  width: 1.5rem;
+  height: 0.1rem;
+  background: #585757;
+  left: -1.8rem;
+  top: 50%;
+}
+.main .title h1 span:after {
+  position: absolute;
+  content: '';
+  width: 1.5rem;
+  height: 0.1rem;
+  background: #585757;
+  right: -1.8rem;
+  top: 50%;
+}
+.main ul li h3 {
+  color: #3a3a3a;
+  line-height: 2rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+ul.half li {
+  width: calc(50% - 0.25rem);
+  margin-right: 0.5rem;
+}
+ul.half li:nth-child(2n) {
+  margin-right: 0;
+}
+ul.third li {
+  width: calc(33.3333% - 0.2rem);
+  margin-right: 0.3rem;
+}
+ul.third li:nth-child(3n) {
+  margin-right: 0;
+}
+.rad_bd {
+  border: 1px dashed #74c5be;
+  border-radius: 6px;
+  padding: 0.2rem;
+  box-sizing: border-box;
+}
+/*careSystem*/
+#careSystem .check {
+  position: relative;
+  padding-bottom: 1rem;
+}
+#careSystem .check div {
+  position: absolute;
+  width: 6rem;
+  color: #fff;
+  top: 2rem;
+  left: 1.5rem;
+}
+#careSystem .check div h3 {
+  font-size: 0.8rem;
+}
+#careSystem .check div p {
+  font-size: 0.6rem;
+  margin-top: 0.4rem;
+}
+/*rehabilitationSystem*/
+#rehabilitationSystem .repair .content {
+  text-align: left;
+  overflow: hidden;
+}
+#rehabilitationSystem .repair .content ul {
+  position: relative;
+}
+/*newsclassify*/
+#newsclassify .classify .content > div.list .btn {
+  background-color: #74c5be;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  margin-bottom: 0.25rem;
+  box-sizing: border-box;
+  position: relative;
+}
+#newsclassify .classify .content > div.list .btn .icon {
+  position: absolute;
+  right: 1.5rem;
+  top: 50%;
+  margin-top: -0.25rem;
+}
+#newsclassify .classify .content > div.list .btn .icon:before {
+  content: '';
+  position: absolute;
+  width: 0.6rem;
+  height: 0.1rem;
+  transform: rotate(45deg);
+  background-color: #fff;
+}
+#newsclassify .classify .content > div.list .btn .icon:after {
+  content: '';
+  position: absolute;
+  top: 0.36rem;
+  width: 0.6rem;
+  height: 0.1rem;
+  transform: rotate(-45deg);
+  background-color: #fff;
+}
+#newsclassify .classify .content > div.list ul {
+  padding: 0.5rem;
+  display: none;
+}
+#newsclassify .classify .content > div.list ul li {
+  width: 100%;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+  padding: 0.2rem 0;
+  border-bottom: 0.05rem dashed #8a8b8c;
+}
+#newsclassify .classify .content > div.list ul li a {
+  color: #8a8b8c;
+}
+#newsclassify .classify .content > div.open .btn {
+  background-color: #ed85ad;
+}
+#newsclassify .classify .content > div.open .btn .icon {
+  transform: rotate(90deg);
+  right: 1rem;
+}

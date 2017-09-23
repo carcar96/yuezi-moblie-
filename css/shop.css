@@ -1,0 +1,96 @@
+.banner ul li {
+  float: left;
+  margin: 0;
+}
+.banner ol {
+  position: absolute;
+  bottom: 0;
+}
+.banner ol li {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.banner ol li.cur {
+  background-color: #007aff;
+}
+.banner ol li + li {
+  margin-left: 0.4rem;
+}
+.outdoor {
+  margin-top: 0.9rem;
+}
+.outdoor .out {
+  text-align: left;
+  border: 0.05rem solid #74c5be;
+  padding: 0.5rem 0.5rem 2.215rem 0.5rem;
+  position: relative;
+  z-index: 1;
+}
+.outdoor .out h5 {
+  font-size: 0.8rem;
+  color: #787878;
+  position: relative;
+  padding-bottom: 0.15rem;
+}
+.outdoor .out h5:after {
+  position: absolute;
+  content: '';
+  width: 1.6rem;
+  height: 1px;
+  bottom: 0rem;
+  left: 0;
+  background-color: #74c5be;
+}
+.outdoor .out p {
+  font-size: 0.6rem;
+  line-height: 1rem;
+  margin-top: 0.5rem;
+}
+.outdoor img {
+  position: relative;
+  top: -1rem;
+  padding: 0 0.5rem;
+  box-sizing: border-box;
+}
+.room ul li {
+  width: 100%;
+}
+.room ul li .txt {
+  text-align: justify;
+  width: 8.4rem;
+  border: 0.05rem solid #74c5be;
+  padding: 0.35rem 0.8rem 0.3rem 0.5rem;
+}
+.room ul li .pic {
+  width: 7.4rem;
+  margin-top: 1rem;
+  margin-left: 0.3rem;
+}
+.room .roomC1 ul li .pic {
+  float: right;
+}
+.room .roomC2 {
+  margin: 4rem 0;
+}
+.room .roomC2 ul li {
+  position: relative;
+}
+.room .roomC2 ul li .pic {
+  position: absolute;
+}
+.room .roomC2 ul li .txt {
+  float: right;
+  padding-left: 1.8rem;
+  box-sizing: border-box;
+}
+.room .roomC3 ul li {
+  width: 50%;
+  float: left;
+}
+.room .roomC3 ul li p {
+  float: left;
+  margin: 0;
+}
+.room .roomC3 ul li.half p {
+  width: 50%;
+}

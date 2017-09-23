@@ -1,0 +1,28 @@
+.cus-server {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  margin-top: -6.1rem;
+  width: 2rem;
+  z-index: 9;
+  background-color: #307ae8;
+}
+.cus-server .icon {
+  text-align: center;
+  padding: 0.4rem 0;
+}
+.cus-server .icon img {
+  width: 1rem;
+  height: 1rem;
+}
+.cus-server .txt {
+  text-align: center;
+  padding: 0.5rem 0.7rem;
+  word-break: break-word;
+  border-top: 1px solid #8dafe2;
+  line-height: 0.9rem;
+}
+.cus-server .txt span {
+  color: #fff;
+  font-size: 0.65rem;
+}

@@ -1,0 +1,38 @@
+nav .head {
+  background: url(../images/about/logo.png) no-repeat center;
+  background-size: 45%;
+  padding: 0 0.3rem;
+  overflow: hidden;
+}
+nav .head span {
+  color: #82c9c3;
+  font-size: 1.8rem;
+  display: block;
+  text-align: center;
+  line-height: 3rem;
+  float: left;
+}
+nav .head .menu {
+  width: 2.45rem;
+  height: 3rem;
+  float: right;
+}
+nav .head .closeMenu {
+  width: 2.4rem;
+  float: right;
+  margin: 0.3rem 0;
+  display: none;
+}
+nav .topNav {
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  background: rgba(245, 245, 245, 0.9);
+  display: none;
+}
+nav .topNav ul li a {
+  color: #575757;
+}
+nav .topNav ul li + li {
+  border-top: 1px solid #c9c9c9;
+}

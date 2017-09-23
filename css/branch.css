@@ -1,0 +1,10 @@
+.branch {
+  padding-bottom: 1rem;
+}
+.branch ul li {
+  width: calc(50% - 0.25rem);
+  margin-top: 0.4rem;
+}
+.branch ul li:nth-child(2n) {
+  margin-left: 0.5rem;
+}

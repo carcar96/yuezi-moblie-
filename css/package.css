@@ -1,0 +1,81 @@
+.main .content {
+  padding-top: 0rem;
+}
+ul li {
+  position: relative;
+}
+ul li .intro {
+  font-size: 0.6rem;
+  color: #fff;
+  width: 100%;
+  background-color: rgba(151, 212, 206, 0.7);
+  position: absolute;
+  bottom: 0;
+  line-height: 1.1rem;
+}
+.dweling .content ul li {
+  width: 25%;
+}
+.mother ul li {
+  width: 50%;
+  margin-bottom: 0.5rem;
+}
+.nutrition {
+  padding-left: 0;
+  padding-right: 0;
+}
+.nutrition .content ul li {
+  width: 50%;
+}
+.nutrition .content ul li p {
+  line-height: 2rem;
+}
+.nutrition .content > ul {
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+.nutrition .content .baby {
+  background: url(http://www.shixinyuezi.com/m/images/bg_blue.jpg) no-repeat;
+  background-size: 150%;
+  padding: 2rem 0;
+}
+.nutrition .content .baby .left {
+  width: 30%;
+  float: left;
+  margin-top: 1.5rem;
+}
+.nutrition .content .baby .left img {
+  width: 100%;
+}
+.other {
+  padding-left: 0;
+  padding-right: 0;
+}
+.other .content {
+  overflow: hidden;
+}
+.other .content ul {
+  float: left;
+}
+.other .content ul .f {
+  width: 42%;
+}
+.other .content ul .s {
+  width: 58%;
+}
+.other .content ul img {
+  width: 100%;
+  height: 4.5rem;
+}
+.other .content div {
+  overflow: hidden;
+}
+.other .content div ul:nth-child(1) {
+  width: 35%;
+}
+.other .content div ul:nth-child(1) img {
+  height: 9rem;
+}
+.other .content div ul:nth-child(2) {
+  width: 65%;
+}

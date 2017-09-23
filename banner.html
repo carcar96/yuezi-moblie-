@@ -1,0 +1,18 @@
+<div class="carousel">
+	<ul class="owl-carousel owl-theme">
+		<!-- <li class="owl-item"><img src="images/about/banner1.jpg"></li>-->
+	</ul>
+</div>
+
+<script src="js/util.js"></script>
+<script>
+	var banner = data.banner;
+	var str = '';
+	for(var i=0;i<banner.length;i++){
+
+		str += "<li class='owl-item' id='"+banner[i].id+"'>"+
+				"<a href='"+banner[i].slider_link+"'><img src='http://www.shixinyuezi.com/m/api/public"+banner[i].slider_image+"'></a>"+
+				"</li>";
+	}
+	$('.owl-carousel').prepend(str);
+</script>

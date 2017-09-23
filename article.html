@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/article.css">
+	<link rel="stylesheet" href="lib/owl.carousel.min.css" />
+	<link rel="stylesheet" href="lib/owl.theme.default.min.css" />
+</head>
+<body>
+	<!-- nav -->
+	<nav id="nav"></nav>
+	<!-- banner -->
+	<section id="banner"></section>
+	<!-- article -->
+	<section class="main article">
+		<div class="title">
+			<h1 class="news_name"></h1>
+			<p>
+				文章来源：<span class="source"></span>
+				发布时间：<span class="time"></span>
+			</p>
+		</div>
+		<div class="content"></div>
+	</section>
+	<!-- customer service -->
+	<section id="cusServer"></section>	
+	<!-- footer -->
+	<footer></footer>
+</body>
+<script src="lib/jquery.min.js"></script>
+<script src="lib/owl.carousel.min.js"></script>
+<script src="js/base.js"></script>
+<script src="js/util.js"></script>
+<script>
+	var href = window.location.href;
+	lookID(parseURL(href));
+	//获取id
+	function parseURL(url){
+	    var n_url = url.split("?")[1];
+	    var id = n_url.split("=")[1];
+	    return id;
+	};
+	//查id数据
+	function lookID(id){
+		var $article = data.articlePage;
+		for(var i=0;i<$article.length;i++){
+			var $list = $article[i];
+			if(id == $list.id){
+				var str ="<div class='title'>"+
+							"<h1 class='news_name'>"+$list.news_name+"</h1>"+
+							"<p><span class='source'>文章来源："+$list.news_source+"</span>"+
+							"<span class='time'>发布时间："+$list.create_time+"</span></p>"+
+						"</div><div class='content'>"+$list.news_content+$list.video_src+"</div>";
+				$('.article').html(str);
+				imgSrc();
+			}
+		}
+	}
+	//改img src
+	function imgSrc(){
+		$('.article img').each(function(idx,ele){
+			var src = $(ele)[0].src;
+			src = src.replace('http://localhost:8888','http://www.shixinyuezi.com');
+			$(ele).attr('src',src);
+		})
+	}
+
+	/*
+	**处理url参数
+	function parseURL(url){
+	    var n_url = url.split("?")[1];
+	    var para = n_url.split("&");
+	    var len = para.length;
+	    var res = {};
+	    var arr = [];
+	    for(var i=0;i<len;i++){
+	        arr = para[i].split("=");
+	        res[arr[0]] = arr[1];
+	    }
+	    return res;
+	};
+	var res = parseURL("https://www.google.com/search?q=hello&oq=hello");
+	console.log(res)
+	 */
+</script>
+</html>

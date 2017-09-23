@@ -1,0 +1,27 @@
+.tabBox .tab {
+  padding: 1.5rem 0;
+}
+.tabBox .tab ul {
+  text-align: center;
+}
+.tabBox .tab ul li {
+  display: inline-block;
+  background: #74c5be;
+  border-radius: 0 0.7rem;
+  padding: 0.05rem 0.8rem;
+}
+.tabBox .tab ul li h3 {
+  font-size: 0.65rem;
+  text-align: center;
+  line-height: 1.25rem;
+  color: white;
+}
+.tabBox .tab ul li.active {
+  background: #ed85ad;
+}
+.tabBox .content > div {
+  display: none;
+}
+.tabBox .content > div:first-child {
+  display: block;
+}

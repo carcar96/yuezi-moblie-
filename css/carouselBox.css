@@ -1,0 +1,66 @@
+.carouselBox {
+  overflow: hidden;
+  position: relative;
+}
+.carouselBox ul {
+  overflow: hidden;
+  position: relative;
+}
+.carouselBox ul li {
+  padding: 0;
+  margin-left: 0.4rem;
+}
+.carouselBox ul li:nth-child(1) {
+  margin-left: 0;
+}
+.carouselBox ol {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+.carouselBox ol li {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: inline-block;
+}
+.carouselBox ol li + li {
+  margin-left: 0.2rem;
+}
+.carouselBox ol li.cur {
+  background-color: #74c5be;
+}
+.carouselBox span {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  font-size: 1.5rem;
+  margin: -1rem 0.2rem 0;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.3);
+  display: block;
+  height: 2rem;
+}
+.carouselBox span.left {
+  left: 0;
+}
+.carouselBox span.right {
+  right: 0;
+}
+.carouselBox .min_p {
+  margin-top: 0.5rem;
+}
+.carouselBox .min_p p {
+  width: 3rem;
+  height: 1.7rem;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+}
+.carouselBox .min_p p + p {
+  margin-left: 0.2rem;
+}
+.carouselBox .min_p p.cur {
+  border: 1px solid #74c5be;
+}

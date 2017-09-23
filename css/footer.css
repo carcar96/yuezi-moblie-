@@ -1,0 +1,122 @@
+footer {
+  color: #787878;
+  background: url(../images/about/index_bg.jpg) no-repeat;
+  background-position: center;
+}
+footer a {
+  color: #787878;
+}
+footer .top {
+  padding: 1.5rem 0 3rem 0;
+}
+footer .top .img_box {
+  overflow: hidden;
+  padding: 0 20%;
+}
+footer .top .img_box p {
+  width: 50%;
+  float: left;
+  padding: 0 0.2rem;
+  box-sizing: border-box;
+}
+footer .top .img_box p img {
+  width: 100%;
+}
+footer .top .img_box p span {
+  font-size: 0.7rem;
+  display: block;
+  margin: 0.3rem auto 0.2rem auto;
+}
+footer .top .res p {
+  font-size: 0.6rem;
+  text-align: center;
+}
+footer .bottom > ul {
+  overflow: hidden;
+  background: #74c5be;
+  padding: 0.3rem 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 2;
+}
+footer .bottom > ul li {
+  float: left;
+  width: 33.3333%;
+  height: 1.5rem;
+  text-align: center;
+}
+footer .bottom > ul li img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+footer .bottom > ul li a span {
+  color: #fff;
+  font-size: 0.7rem;
+  line-height: 1.5rem;
+}
+footer .bottom > ul li:nth-child(1),
+footer .bottom > ul li:nth-child(2) {
+  box-shadow: -2px 0 0 #488e88 inset;
+  position: relative;
+}
+footer .bottom > ul li:nth-child(2):after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background: #fff;
+  right: 0;
+}
+footer .bottom > ul li:nth-child(2):before {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background: #fff;
+  left: -1px;
+}
+footer .bottom .menus {
+  width: 10rem;
+  height: 11.5rem;
+  background: #fcfcfc;
+  position: fixed;
+  right: 0;
+  bottom: -11.5rem;
+  padding: 0.5rem;
+  z-index: 1;
+}
+footer .bottom .menus ul li {
+  width: 33.33%;
+  text-align: center;
+  font-size: 0.6rem;
+  color: #787878;
+  padding: 0.6rem 0;
+  float: left;
+  font-weight: bold;
+}
+footer .bottom .menus ul li div {
+  width: 60%;
+  background: #ed85ad;
+  border-radius: 100%;
+  margin: auto;
+}
+footer .bottom .menus ul li div img {
+  width: 100%;
+}
+footer .bottom .menus ul li div.close {
+  background: #b3b3b3;
+}
+footer .bottom .menus ul li span {
+  margin: 0.2rem 0;
+}
+footer .bottom .menus:after {
+  content: '';
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  transform: rotate(45deg);
+  background: #fcfcfc;
+  bottom: -0.6rem;
+  right: 2.7rem;
+}
