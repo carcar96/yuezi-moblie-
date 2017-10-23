@@ -47,4 +47,7 @@ $(document).ready(function(){
 			flag = false;
 		}
 	})
+	//字体自适应
+	var px = $(window).width()/320 * 20;
+	$('html').css('fontSize',px+'px');	 
 })
